@@ -1,31 +1,14 @@
 [
   {
-    "objectID": "example/3DRotation.html",
-    "href": "example/3DRotation.html",
-    "title": "Kinematics & Dynamics",
+    "objectID": "chapters/angular_velocity.html",
+    "href": "chapters/angular_velocity.html",
+    "title": "Rotation in time::Angular velocity",
     "section": "",
-    "text": "import Pkg\nPkg.activate(\"..\")\nPkg.instantiate()\n\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n  Activating project at `~/blog/Dailynote/KinematicsDynamics`\n\n\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "chapters/quaternion.html",
-    "href": "chapters/quaternion.html",
-    "title": "quaternion",
-    "section": "",
-    "text": "using Pkg\nPkg.activate(\"..\")\nPkg.instantiate()\n\n\n  Activating project at `~/blog/KINDYN`\n\n\n\n\n\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top",
+    "text": "Show code\nusing Pkg\nPkg.activate(\"..\")\nPkg.instantiate()\n\n\n\n  Activating project at `~/work/KINDYN/KINDYN`\n\n\n\n\n\n\nShow code\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\nGKS: cannot open display - headless operation mode active\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top",
     "crumbs": [
-      "0. 3D Rotation",
-      "quaternion"
-    ]
-  },
-  {
-    "objectID": "chapters/3D_Rotation.html",
-    "href": "chapters/3D_Rotation.html",
-    "title": "3D Rotation",
-    "section": "",
-    "text": "Show code\nimport Pkg\nPkg.activate(\"..\")\nPkg.instantiate()\n\n\n\n  Activating project at `~/blog/KINDYN`\n\n\n\n\n\n\nShow code\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 1: Sine function\n\n\n\n\nLie Group\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Bullo and Lewis 1995).\nMore advanced treatment can be found in (Lee 2017).\n\\[\n\\left.\\frac{\\partial H(x,y,y',p)}{\\partial y'}\\right|_{p = \\frac{\\partial L(x,y,y')}{\\partial y'}} = 0.\n\\tag{1}\\]\nEq. 1 is given by the equation of stationarity\n\n\n\n\n\n\nFigure 2: Rotation diagram\n\n\n\nAs seen in Fig. 2 …\n📄 Download Lecture Notes\nVisit the Quarto website for documentation.\n\n\n\n\n Back to topReferences\n\nBullo, Francesco, and Andrew D. Lewis. 1995. “Geometric Control of Mechanical Systems.” IEEE Transactions on Automatic Control 40 (6): 1042–48.\n\n\nLee, Taeyoung. 2017. Global Formulations of Classical Mechanics. Princeton University Press.",
-    "crumbs": [
-      "0. 3D Rotation",
-      "3D Rotation"
+      "Home",
+      "1. Rotation Kinematics",
+      "Rotation in time::Angular velocity"
     ]
   },
   {
@@ -33,22 +16,19 @@
     "href": "chapters/lie_group.html",
     "title": "lie_group",
     "section": "",
-    "text": "Show code\nusing Pkg\nPkg.activate(\"..\")\nPkg.instantiate()\n\n\nusing Plots\nplt = plot(cos, 0, 2π)\ndisplay(plt)\n\n\n\n  Activating project at `~/blog/KINDYN`\n\n\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top",
+    "text": "Show code\nusing Pkg\nPkg.activate(\"..\")\nPkg.instantiate()\n\n\nusing Plots\nplt = plot(cos, 0, 2π)\ndisplay(plt)\n\n\n\n  Activating project at `~/work/KINDYN/KINDYN`\nGKS: cannot open display - headless operation mode active\n\n\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top",
     "crumbs": [
+      "Home",
       "0. 3D Rotation",
       "lie_group"
     ]
   },
   {
-    "objectID": "chapters/angular_velocity.html",
-    "href": "chapters/angular_velocity.html",
-    "title": "Rotation in time::Angular velocity",
+    "objectID": "example/3DRotation.html",
+    "href": "example/3DRotation.html",
+    "title": "Kinematics & Dynamics",
     "section": "",
-    "text": "Show code\nusing Pkg\nPkg.activate(\"..\")\nPkg.instantiate()\n\n\n\n  Activating project at `~/blog/KINDYN`\n\n\n\n\n\n\nShow code\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top",
-    "crumbs": [
-      "1. Rotation Kinematics",
-      "Rotation in time::Angular velocity"
-    ]
+    "text": "import Pkg\nPkg.activate(\"..\")\nPkg.instantiate()\n\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n  Activating project at `~/blog/Dailynote/KinematicsDynamics`\n\n\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "index.html",
@@ -63,5 +43,29 @@
     "title": "Kinematics & Dynamics",
     "section": "",
     "text": "Knowing how to model equations of motions for robots, and simulate and control or even estimate them with those equations using numericla methods."
+  },
+  {
+    "objectID": "chapters/quaternion.html",
+    "href": "chapters/quaternion.html",
+    "title": "quaternion",
+    "section": "",
+    "text": "Show code\nusing Pkg\nPkg.activate(\"..\")\nPkg.instantiate()\n\n\n\n  Activating project at `~/work/KINDYN/KINDYN`\n\n\n\n\n\n\nShow code\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\nGKS: cannot open display - headless operation mode active\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Home",
+      "0. 3D Rotation",
+      "quaternion"
+    ]
+  },
+  {
+    "objectID": "chapters/3D_Rotation.html",
+    "href": "chapters/3D_Rotation.html",
+    "title": "3D Rotation",
+    "section": "",
+    "text": "Show code\nimport Pkg\nPkg.activate(\"..\")\nPkg.instantiate()\n\n\n\n  Activating project at `~/work/KINDYN/KINDYN`\n\n\n\n\n\n\nShow code\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\nGKS: cannot open display - headless operation mode active\n\n\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 1: Sine function\n\n\n\n\nLie Group\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Bullo and Lewis 1995).\nMore advanced treatment can be found in (Lee 2017).\n\\[\n\\left.\\frac{\\partial H(x,y,y',p)}{\\partial y'}\\right|_{p = \\frac{\\partial L(x,y,y')}{\\partial y'}} = 0.\n\\tag{1}\\]\nEq. 1 is given by the equation of stationarity\n\n\n\n\n\n\nFigure 2: Rotation diagram\n\n\n\nAs seen in Fig. 2 …\n📄 Download Lecture Notes\nVisit the Quarto website for documentation.\n\n\n\n\n Back to topReferences\n\nBullo, Francesco, and Andrew D. Lewis. 1995. “Geometric Control of Mechanical Systems.” IEEE Transactions on Automatic Control 40 (6): 1042–48.\n\n\nLee, Taeyoung. 2017. Global Formulations of Classical Mechanics. Princeton University Press.",
+    "crumbs": [
+      "Home",
+      "0. 3D Rotation",
+      "3D Rotation"
+    ]
   }
 ]
