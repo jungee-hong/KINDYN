@@ -1,0 +1,18 @@
+---
+title: "quaternion"
+format: html
+jupyter: julia-1.10.9-1.10
+---
+
+```{julia}
+using Pkg
+Pkg.activate("..")
+Pkg.instantiate()
+```
+
+```{julia}
+using Plots
+plt = plot(sin, 0, 2π)
+display(plt)
+
+```

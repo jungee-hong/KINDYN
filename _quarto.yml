@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "Kinematics & Dynamics"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - index.qmd
+      - section: "0. 3D Rotation"
+        contents:
+          - chapters/3D_Rotation.qmd
+          - chapters/lie_group.qmd
+          - chapters/quaternion.qmd
+      - section: "1. Rotation Kinematics"
+        contents:
+          - chapters/angular_velocity.qmd
+  page-navigation: true
+  back-to-top-navigation: true
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true
+
