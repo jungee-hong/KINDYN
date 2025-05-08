@@ -5,7 +5,8 @@ crossref:
   fig-prefix: Fig.
   eq-prefix: Eq.
   tbl-prefix: Table
-bibliography: ../bibliography/ref_attitude.bib
+bibliography:
+    - ref_attitude.bib
 format:
   html:
     html-math-method: mathjax

@@ -3,29 +3,28 @@ project:
 
 website:
   title: "Kinematics & Dynamics"
-  site-url: https://jungee-hong.github.io/KINDYN/
   description: "Notes on kinematics and dynamics for robotics"
   repo-url: https://github.com/jungee-hong/KINDYN
   repo-actions: [edit, issue]
   sidebar:
     contents:
       - index.qmd
-      - section: "3D Rotation"
+      - section: "1. 3D Rotation"
         contents:
           - text: "Introduction to 3D Rotation"
-            href: chapters/intro_3d_rotation.qmd
+            href: intro_3d_rotation.qmd
           - text: "Paramterizating Attitude"
-            href: chapters/attitude_paramterization.qmd
+            href: attitude_paramterization.qmd
           - text: "Differentiable Manifold"
-            href: chapters/differentiable_manifold.qmd
+            href: differentiable_manifold.qmd
           - text: "Matrix Lie Group"
-            href: chapters/matrix_lie_group.qmd
+            href: matrix_lie_group.qmd
           - text: "Quaternion"
-            href: chapters/quaternion.qmd
-      - section: "Rotation Kinematics"
+            href: quaternion.qmd
+      - section: "2. Rotation Kinematics"
         contents:
           - text: "Angular Velocity"
-            href: chapters/angular_velocity.qmd
+            href: angular_velocity.qmd
   page-navigation: true
   back-to-top-navigation: true
 

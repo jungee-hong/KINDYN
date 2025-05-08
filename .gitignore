@@ -1,4 +1,14 @@
-_site/
-.quarto/
-
+# Quarto build outputs
+/_site/
 /.quarto/
+
+
+# VS Code and OS junk
+.vscode/
+.DS_Store
+*.swp
+
+# Quarto cache
+*/_freeze/
+*/_files/
+

@@ -5,7 +5,8 @@ crossref:
   fig-prefix: Fig.
   eq-prefix: Eq.
   tbl-prefix: Table
-bibliography: ../bibliography/ref_attitude.bib
+bibliography:
+    - ref_attitude.bib
 format:
   html:
     html-math-method: mathjax
@@ -37,12 +38,10 @@ $${#eq-derivative-of-Hamiltonian-vanishing-in-calculus-of-variations}
 @eq-derivative-of-Hamiltonian-vanishing-in-calculus-of-variations is given by the equation of stationarity
 
 
-![Rotation diagram](../figures/dragon.png){#fig-dragon width=70%}
+![Rotation diagram](figures/dragon.png){#fig-dragon width=70%}
 
 As seen in @fig-dragon ...
 
-
-[📄 Download Lecture Notes](../pdfs/Ceres-NMPC_eng.pdf)
 
 
 Visit the [Quarto website](https://quarto.org) for documentation.
