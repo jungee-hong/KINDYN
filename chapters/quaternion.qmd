@@ -1,9 +1,18 @@
 ---
 title: "quaternion"
-format: html
-jupyter: julia-1.10.9-1.10
+engine: julia
+crossref:
+  fig-prefix: Fig.
+  eq-prefix: Eq.
+  tbl-prefix: Table
+bibliography: ../bibliography/ref_kinematics&dynamics.bib
+format:
+  html:
+    html-math-method: mathjax
+    toc: true
+    code-fold: true
+    code-summary: "Show code"
 ---
-
 ```{julia}
 using Pkg
 Pkg.activate("..")

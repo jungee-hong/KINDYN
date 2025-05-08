@@ -1,19 +1,18 @@
 ---
 title: "lie_group"
-bibliography: ../bibliography/ref_kinematics&dynamics.bib
-format:
-    html:
-        html-math-method: mathjax
-        toc: true
-        code-fold: true
-        code-summary: "Show code"
+engine: julia
 crossref:
   fig-prefix: Fig.
   eq-prefix: Eq.
   tbl-prefix: Table
-jupyter: julia-1.10.9-1.10
+bibliography: ../bibliography/ref_kinematics&dynamics.bib
+format:
+  html:
+    html-math-method: mathjax
+    toc: true
+    code-fold: true
+    code-summary: "Show code"
 ---
-
 ```{julia}
 using Pkg
 Pkg.activate("..")

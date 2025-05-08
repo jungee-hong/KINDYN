@@ -1,5 +1,6 @@
 ---
 title: "3D Rotation"
+engine: julia
 crossref:
   fig-prefix: Fig.
   eq-prefix: Eq.
@@ -11,7 +12,6 @@ format:
     toc: true
     code-fold: true
     code-summary: "Show code"
-jupyter: julia-1.10.9-1.10
 ---
 
 ```{julia}
