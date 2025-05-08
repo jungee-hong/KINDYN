@@ -33,13 +33,6 @@
     ]
   },
   {
-    "objectID": "example/3DRotation.html",
-    "href": "example/3DRotation.html",
-    "title": "Kinematics & Dynamics",
-    "section": "",
-    "text": "import Pkg\nusing Plots\nPkg.activate(\"..\")\nPkg.instantiate()\n\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n  Activating project at `~/blog/Dailynote/KinematicsDynamics`\n\n\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Kinematics & Dynamics",
@@ -52,6 +45,13 @@
     "title": "Kinematics & Dynamics",
     "section": "",
     "text": "Knowing how to model equations of motions for robots, and simulate and control or even estimate them with those equations using numericla methods."
+  },
+  {
+    "objectID": "example/3DRotation.html",
+    "href": "example/3DRotation.html",
+    "title": "Kinematics & Dynamics",
+    "section": "",
+    "text": "import Pkg\nusing Plots\nPkg.activate(\"..\")\nPkg.instantiate()\n\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n  Activating project at `~/blog/Dailynote/KinematicsDynamics`\n\n\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "chapters/quaternion.html",
