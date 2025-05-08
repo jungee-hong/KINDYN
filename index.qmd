@@ -3,6 +3,7 @@ title: "Kinematics & Dynamics"
 format: html
 ---
 
-## .purpose
+## purpose
 Knowing how to model equations of motions for robots, and simulate and control or even estimate them with those equations using numericla methods.
 
+![](figures/logo.png){width=200px style="display:block; margin-left:auto; margin-right:auto;"}
