@@ -1,5 +1,5 @@
 ---
-title: "3D Rotation"
+title: "Paramterizing Attitude"
 engine: julia
 crossref:
   fig-prefix: Fig.

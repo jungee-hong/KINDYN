@@ -11,13 +11,20 @@ website:
     contents:
       - section: "3D Rotation"
         contents:
-          - chapters/3d_rotation.qmd
-          - chapters/differentiable_manifold.qmd
-          - chapters/matrix_lie_group.qmd
-          - chapters/quaternion.qmd
+          - text: "Introduction to 3D Rotation"
+            href: chapters/intro_3d_rotation.qmd
+          - text: "Paramterizating Attitude"
+            href: chapters/attitude_paramterization.qmd
+          - text: "Differentiable Manifold"
+            href: chapters/differentiable_manifold.qmd
+          - text: "Matrix Lie Group"
+            href: chapters/matrix_lie_group.qmd
+          - text: "Quaternion"
+            href: chapters/quaternion.qmd
       - section: "Rotation Kinematics"
         contents:
-          - chapters/angular_velocity.qmd
+          - text: "Angular Velocity"
+            href: chapters/angular_velocity.qmd
   page-navigation: true
   back-to-top-navigation: true
 

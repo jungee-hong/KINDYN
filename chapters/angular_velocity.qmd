@@ -1,5 +1,5 @@
 ---
-title: "Rotation in time::Angular velocity"
+title: "Attitude in time::Angular velocity"
 engine: julia
 crossref:
   fig-prefix: Fig.

@@ -1,0 +1,48 @@
+---
+title: "Introduction to 3D Rotation"
+engine: julia
+crossref:
+  fig-prefix: Fig.
+  eq-prefix: Eq.
+  tbl-prefix: Table
+bibliography: ../bibliography/ref_attitude.bib
+format:
+  html:
+    html-math-method: mathjax
+    toc: true
+    code-fold: true
+    code-summary: "Show code"
+---
+```{julia}
+using Pkg
+println(Pkg.project().path)
+using Plots
+plt = plot(sin, 0, 2π)
+display(plt)
+```
+
+[Lie Group](matrix_lie_group.qmd)
+
+[Matrix Lie group](matrix_lie_group.qmd#representation)
+
+Mechanical systems on Lie groups are often modeled as left-invariant control systems [@bullo1995geometric].
+
+More advanced treatment can be found in [@lee2017global].
+
+
+$$
+ \left.\frac{\partial H(x,y,y',p)}{\partial y'}\right|_{p = \frac{\partial L(x,y,y')}{\partial y'}} = 0.
+$${#eq-derivative-of-Hamiltonian-vanishing-in-calculus-of-variations}
+
+@eq-derivative-of-Hamiltonian-vanishing-in-calculus-of-variations is given by the equation of stationarity
+
+
+![Rotation diagram](../figures/dragon.png){#fig-dragon width=70%}
+
+As seen in @fig-dragon ...
+
+
+[📄 Download Lecture Notes](../pdfs/Ceres-NMPC_eng.pdf)
+
+
+Visit the [Quarto website](https://quarto.org) for documentation.

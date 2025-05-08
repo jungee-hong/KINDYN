@@ -1,5 +1,5 @@
 ---
-title: "lie_group"
+title: "Matrix Lie group"
 engine: julia
 crossref:
   fig-prefix: Fig.
