@@ -1,35 +1,13 @@
 [
   {
-    "objectID": "chapters/intro_3d_rotation.html",
-    "href": "chapters/intro_3d_rotation.html",
+    "objectID": "intro_3d_rotation.html",
+    "href": "intro_3d_rotation.html",
     "title": "Introduction to 3D Rotation",
     "section": "",
     "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/runner/work/KINDYN/KINDYN/Project.toml\nGKS: cannot open display - headless operation mode active\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLie Group\nMatrix Lie group\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Bullo and Lewis 1995).\nMore advanced treatment can be found in (Lee 2017).\n\\[\n\\left.\\frac{\\partial H(x,y,y',p)}{\\partial y'}\\right|_{p = \\frac{\\partial L(x,y,y')}{\\partial y'}} = 0.\n\\tag{1}\\]\nEq. 1 is given by the equation of stationarity\n\n\n\n\n\n\nFigure 1: Rotation diagram\n\n\n\nAs seen in Fig. 1 …\n📄 Download Lecture Notes\nVisit the Quarto website for documentation.\n\n\n\n\n Back to topReferences\n\nBullo, Francesco, and Andrew D. Lewis. 1995. “Geometric Control of Mechanical Systems.” IEEE Transactions on Automatic Control 40 (6): 1042–48.\n\n\nLee, Taeyoung. 2017. Global Formulations of Classical Mechanics. Princeton University Press.",
     "crumbs": [
-      "3D Rotation",
+      "1. 3D Rotation",
       "Introduction to 3D Rotation"
-    ]
-  },
-  {
-    "objectID": "chapters/angular_velocity.html",
-    "href": "chapters/angular_velocity.html",
-    "title": "Attitude in time::Angular velocity",
-    "section": "",
-    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/runner/work/KINDYN/KINDYN/Project.toml\nGKS: cannot open display - headless operation mode active\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Rotation Kinematics",
-      "Angular Velocity"
-    ]
-  },
-  {
-    "objectID": "chapters/attitude_paramterization.html",
-    "href": "chapters/attitude_paramterization.html",
-    "title": "Paramterizing Attitude",
-    "section": "",
-    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/runner/work/KINDYN/KINDYN/Project.toml\nGKS: cannot open display - headless operation mode active\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLie Group\nMatrix Lie group\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Bullo and Lewis 1995).\nMore advanced treatment can be found in (Lee 2017).\n\\[\n\\left.\\frac{\\partial H(x,y,y',p)}{\\partial y'}\\right|_{p = \\frac{\\partial L(x,y,y')}{\\partial y'}} = 0.\n\\tag{1}\\]\nEq. 1 is given by the equation of stationarity\n\n\n\n\n\n\nFigure 1: Rotation diagram\n\n\n\nAs seen in Fig. 1 …\n📄 Download Lecture Notes\nVisit the Quarto website for documentation.\n\n\n\n\n Back to topReferences\n\nBullo, Francesco, and Andrew D. Lewis. 1995. “Geometric Control of Mechanical Systems.” IEEE Transactions on Automatic Control 40 (6): 1042–48.\n\n\nLee, Taeyoung. 2017. Global Formulations of Classical Mechanics. Princeton University Press.",
-    "crumbs": [
-      "3D Rotation",
-      "Paramterizating Attitude"
     ]
   },
   {
@@ -53,53 +31,68 @@
     ]
   },
   {
-    "objectID": "example/3DRotation.html",
-    "href": "example/3DRotation.html",
-    "title": "Kinematics & Dynamics",
-    "section": "",
-    "text": "import Pkg\nusing Plots\nPkg.activate(\"..\")\nPkg.instantiate()\n\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n  Activating project at `~/blog/Dailynote/KinematicsDynamics`\n\n\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "chapters/quaternion.html",
-    "href": "chapters/quaternion.html",
-    "title": "quaternion",
-    "section": "",
-    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/runner/work/KINDYN/KINDYN/Project.toml\nGKS: cannot open display - headless operation mode active\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top",
-    "crumbs": [
-      "3D Rotation",
-      "Quaternion"
-    ]
-  },
-  {
-    "objectID": "chapters/matrix_lie_group.html",
-    "href": "chapters/matrix_lie_group.html",
+    "objectID": "matrix_lie_group.html",
+    "href": "matrix_lie_group.html",
     "title": "Matrix Lie group",
     "section": "",
     "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/runner/work/KINDYN/KINDYN/Project.toml\nGKS: cannot open display - headless operation mode active",
     "crumbs": [
-      "3D Rotation",
+      "1. 3D Rotation",
       "Matrix Lie Group"
     ]
   },
   {
-    "objectID": "chapters/matrix_lie_group.html#representation",
-    "href": "chapters/matrix_lie_group.html#representation",
+    "objectID": "matrix_lie_group.html#representation",
+    "href": "matrix_lie_group.html#representation",
     "title": "Matrix Lie group",
     "section": "1 Representation",
     "text": "1 Representation",
     "crumbs": [
-      "3D Rotation",
+      "1. 3D Rotation",
       "Matrix Lie Group"
     ]
   },
   {
-    "objectID": "chapters/differentiable_manifold.html",
-    "href": "chapters/differentiable_manifold.html",
+    "objectID": "quaternion.html",
+    "href": "quaternion.html",
+    "title": "quaternion",
+    "section": "",
+    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/runner/work/KINDYN/KINDYN/Project.toml\nGKS: cannot open display - headless operation mode active\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "1. 3D Rotation",
+      "Quaternion"
+    ]
+  },
+  {
+    "objectID": "attitude_paramterization.html",
+    "href": "attitude_paramterization.html",
+    "title": "Paramterizing Attitude",
+    "section": "",
+    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/runner/work/KINDYN/KINDYN/Project.toml\nGKS: cannot open display - headless operation mode active\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLie Group\nMatrix Lie group\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Bullo and Lewis 1995).\nMore advanced treatment can be found in (Lee 2017).\n\\[\n\\left.\\frac{\\partial H(x,y,y',p)}{\\partial y'}\\right|_{p = \\frac{\\partial L(x,y,y')}{\\partial y'}} = 0.\n\\tag{1}\\]\nEq. 1 is given by the equation of stationarity\n\n\n\n\n\n\nFigure 1: Rotation diagram\n\n\n\nAs seen in Fig. 1 …\nVisit the Quarto website for documentation.\n\n\n\n\n Back to topReferences\n\nBullo, Francesco, and Andrew D. Lewis. 1995. “Geometric Control of Mechanical Systems.” IEEE Transactions on Automatic Control 40 (6): 1042–48.\n\n\nLee, Taeyoung. 2017. Global Formulations of Classical Mechanics. Princeton University Press.",
+    "crumbs": [
+      "1. 3D Rotation",
+      "Paramterizating Attitude"
+    ]
+  },
+  {
+    "objectID": "angular_velocity.html",
+    "href": "angular_velocity.html",
+    "title": "Attitude in time::Angular velocity",
+    "section": "",
+    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/runner/work/KINDYN/KINDYN/Project.toml\nGKS: cannot open display - headless operation mode active\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "2. Rotation Kinematics",
+      "Angular Velocity"
+    ]
+  },
+  {
+    "objectID": "differentiable_manifold.html",
+    "href": "differentiable_manifold.html",
     "title": "Differentiable manifold",
     "section": "",
     "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/runner/work/KINDYN/KINDYN/Project.toml\nGKS: cannot open display - headless operation mode active\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top",
     "crumbs": [
-      "3D Rotation",
+      "1. 3D Rotation",
       "Differentiable Manifold"
     ]
   }
