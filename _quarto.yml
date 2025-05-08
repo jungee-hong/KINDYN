@@ -9,6 +9,7 @@ website:
   repo-actions: [edit, issue]
   sidebar:
     contents:
+      - index.qmd
       - section: "3D Rotation"
         contents:
           - text: "Introduction to 3D Rotation"
