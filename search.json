@@ -37,14 +37,20 @@
     "href": "index.html",
     "title": "Kinematics & Dynamics",
     "section": "",
-    "text": "Knowing how to model equations of motions for robots, and simulate and control or even estimate them with those equations using numericla methods."
+    "text": "Knowing how to model equations of motions for robots, and simulate and control or even estimate them with those equations using numericla methods.",
+    "crumbs": [
+      "Kinematics & Dynamics"
+    ]
   },
   {
     "objectID": "index.html#purpose",
     "href": "index.html#purpose",
     "title": "Kinematics & Dynamics",
     "section": "",
-    "text": "Knowing how to model equations of motions for robots, and simulate and control or even estimate them with those equations using numericla methods."
+    "text": "Knowing how to model equations of motions for robots, and simulate and control or even estimate them with those equations using numericla methods.",
+    "crumbs": [
+      "Kinematics & Dynamics"
+    ]
   },
   {
     "objectID": "example/3DRotation.html",
