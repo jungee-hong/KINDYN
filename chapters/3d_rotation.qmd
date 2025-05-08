@@ -5,7 +5,7 @@ crossref:
   fig-prefix: Fig.
   eq-prefix: Eq.
   tbl-prefix: Table
-bibliography: ../bibliography/ref_kinematics&dynamics.bib
+bibliography: ../bibliography/ref_attitude.bib
 format:
   html:
     html-math-method: mathjax
@@ -14,16 +14,16 @@ format:
     code-summary: "Show code"
 ---
 ```{julia}
-import Pkg
+using Pkg
+println(Pkg.project().path)
 using Plots
-Pkg.activate("..")
-Pkg.instantiate()
 plt = plot(sin, 0, 2π)
 display(plt)
 ```
 
-[Lie Group](lie_group.qmd)
+[Lie Group](matrix_lie_group.qmd)
 
+[Matrix Lie group](matrix_lie_group.qmd#representation)
 
 Mechanical systems on Lie groups are often modeled as left-invariant control systems [@bullo1995geometric].
 

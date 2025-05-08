@@ -7,24 +7,13 @@ website:
   description: "Notes on kinematics and dynamics for robotics"
   repo-url: https://github.com/jungee-hong/KINDYN
   repo-actions: [edit, issue]
-  navbar:
-    left:
-      - text: "Home"
-        href: index.qmd
-      - text: "3D Rotation"
-        menu:
-          - chapters/3D_Rotation.qmd
-          - chapters/lie_group.qmd
-          - chapters/quaternion.qmd
-      - text: "Rotation Kinematics"
-        menu:
-          - chapters/angular_velocity.qmd
   sidebar:
     contents:
       - section: "3D Rotation"
         contents:
-          - chapters/3D_Rotation.qmd
-          - chapters/lie_group.qmd
+          - chapters/3d_rotation.qmd
+          - chapters/differentiable_manifold.qmd
+          - chapters/matrix_lie_group.qmd
           - chapters/quaternion.qmd
       - section: "Rotation Kinematics"
         contents:

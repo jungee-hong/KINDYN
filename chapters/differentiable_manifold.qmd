@@ -1,5 +1,5 @@
 ---
-title: "Rotation in time::Angular velocity"
+title: "Differentiable manifold"
 engine: julia
 crossref:
   fig-prefix: Fig.
