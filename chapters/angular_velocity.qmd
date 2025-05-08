@@ -14,14 +14,10 @@ format:
     code-summary: "Show code"
 ---
 ```{julia}
-using Pkg
+import Pkg
+using Plots
 Pkg.activate("..")
 Pkg.instantiate()
-```
-
-```{julia}
-using Plots
 plt = plot(sin, 0, 2π)
 display(plt)
-
 ```

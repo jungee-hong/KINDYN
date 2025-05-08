@@ -13,20 +13,13 @@ format:
     code-fold: true
     code-summary: "Show code"
 ---
-
 ```{julia}
 import Pkg
+using Plots
 Pkg.activate("..")
 Pkg.instantiate()
-```
-
-```{julia}
-#| label: fig-sineplot
-#| fig-cap: "Sine function"
-using Plots
 plt = plot(sin, 0, 2π)
 display(plt)
-
 ```
 
 [Lie Group](lie_group.qmd)
